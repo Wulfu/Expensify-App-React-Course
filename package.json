@@ -1,12 +1,11 @@
 {
-  "name": "indecision-app",
+  "name": "expansify",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Mateusz Szamota",
   "license": "MIT",
   "scripts": {
-    "build-watch": "webpack --watch",
-    "dev-server": "webpack-dev-server"
+    "dev-server": "webpack-dev-server",
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
