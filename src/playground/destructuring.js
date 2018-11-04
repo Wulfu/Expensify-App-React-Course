@@ -34,3 +34,12 @@ const { name: publisherName = 'self-published'} = book.publisher;
 console.log(title);
 console.log(author);
 console.log(publisherName);
+
+
+const address = ['1299 S Juniper Street', 'Philadelfia', 'Pennsylvania', '19147'];
+const [, cityName, state = 'New York'] = address;
+console.log(`you are in ${cityName}, ${state}`);
+
+const item = ['Coffee (iced)', '$2.00', '$3.00'];
+const [name, , medium] = item;
+console.log(`A medium ${name} costs ${medium}`);
