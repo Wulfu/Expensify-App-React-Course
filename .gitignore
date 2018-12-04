@@ -1,8 +1,6 @@
 .idea/
 yarn-error.log
 node_modules/
-/public/bundle.js
+/public/dist
 src/playground/
-public/bundle.js.map
-public/styles.css
-public/styles.css.map
+
