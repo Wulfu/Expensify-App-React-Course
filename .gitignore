@@ -3,4 +3,5 @@ yarn-error.log
 node_modules/
 /public/dist
 src/playground/
-
+.env.test
+.env.development
