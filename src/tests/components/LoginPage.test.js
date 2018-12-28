@@ -1,7 +1,6 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import { LoginPage } from '../../components/LoginPage';
-import expenses from "../fixtures/expenses";
 
 test('should correctly render LoginPage', () => {
   const wrapper = shallow(<LoginPage startLogin={() => { }}/>);
